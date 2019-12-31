@@ -1,0 +1,211 @@
+/* Navbar */
+.nav-link {
+	font-size: 15px;
+	font-family: 'Nunito Sans', sans-serif;
+	text-transform: uppercase;
+	margin-right: 12px;
+	color: black;
+}
+
+/* Jumbotron */
+.jumbotron {
+	background-image: url(img/jumbotron.jpg);
+	background-size: cover;
+	height: 550px; 
+	color: white;
+}
+
+.jumbotron .up {
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+	line-height: 22px;
+	letter-spacing: 5px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .display-4 {
+	font-size: 32px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+	line-height: 48px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .lead {
+	font-size: 17px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	line-height: 30px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* Tombol Jumbotron */
+.tombol {
+	font-weight: 500;
+	border-radius: 40px;
+	width: 160px;
+	height: 45px;
+}
+
+.profil h3 {
+	margin-top: 7%;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+}
+
+.profil hr {
+	border: 1.5px solid #FFC107;
+	width: 30%;
+}
+
+.profil p {
+	margin-top: 4%;
+	font-size: 18px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+	line-height: 36px;
+	color: #434343;
+}
+
+.harus {
+	margin-top: 4%;
+}
+
+.harus h3 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+}
+
+.harus hr {
+	border: 1.5px solid #FFC107;
+	width: 30%;
+}
+
+.harus img {
+	width: 45px;
+	margin-top: 10%;
+}
+
+.harus p {
+	margin-top: 4%;
+	font-size: 18px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+	line-height: 36px;
+	color: #434343;
+}
+
+.katalog {
+	margin-top: 5%;
+}
+
+.katalog h3 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+}
+
+.katalog hr {
+	border: 1.5px solid #FFC107;
+	width: 25%;
+}
+
+.katalog img {
+	width: 125px;
+	height: 255px;
+	margin-top: 5%;
+}
+
+.katalog p {
+	margin-top: 4%;
+	font-size: 18px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+	line-height: 36px;
+	color: #434343;
+}
+
+.katalog h5 {
+	font-family: 'Nunito Sans', sans-serif;
+	margin-bottom: 10%;
+}
+
+.katalog a:hover {
+	text-decoration: none;
+	color: #FFC107;
+}
+
+.katalog a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer {
+	margin-top: 4%;
+	background-color: #1E1E1E;
+}
+
+.footer h6 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+	line-height: 36px;
+	color: #FFC107;
+}
+
+.footer p {
+	font-size: 17px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+	line-height: 34px;
+	color: #747474;
+}
+
+.footer .jarak {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.akhir {
+	background-color: #111111;
+}
+
+.akhir p {
+	margin-top: 2%;
+	font-size: 11px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+	line-height: 34px;
+	color: #545454;
+}
+
+@media (min-width: 992px) {
+	.navbar-brand, .nav-link {
+		color: white !important;
+	}
+
+	.nav-link:not(.beda):hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid #FFC107;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+
+	.jumbotron {
+		margin-top: -75px;
+		height: 650px;
+	}
+
+	.jumbotron .up {
+		margin-top: 100px;
+		line-height: 16px;
+	}
+
+	.harus p {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
