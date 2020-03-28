@@ -7,6 +7,10 @@
 	color: black;
 }
 
+.logolam {
+	width: 45%;
+}
+
 /* Jumbotron */
 .jumbotron {
 	background-image: url(img/jumbotron.jpg);
@@ -141,6 +145,44 @@
 	color: black;
 }
 
+.kami {
+	margin-top: 5%;
+}
+
+.kami h3 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+}
+
+.kami hr {
+	border: 1.5px solid #FFC107;
+	width: 25%;
+}
+
+.kami p {
+	margin-top: 4%;
+	font-size: 18px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 500;
+	line-height: 36px;
+	color: #434343;
+}
+
+.kami h5 {
+	font-family: 'Nunito Sans', sans-serif;
+	margin-bottom: 10%;
+}
+
+.kami a:hover {
+	text-decoration: none;
+	color: #FFC107;
+}
+
+.kami a {
+	text-decoration: none;
+	color: black;
+}
+
 .katalok {
 	margin-top: 5%;
 }
@@ -224,7 +266,15 @@
 }
 
 @media (min-width: 992px) {
-	.navbar-brand, .nav-link {
+	.navbar {
+		margin-top: -2%;
+	}
+
+	.logolam {
+		width: 20%;
+	}
+
+	.nav-link {
 		color: white !important;
 	}
 
@@ -239,7 +289,7 @@
 	}
 
 	.jumbotron {
-		margin-top: -75px;
+		margin-top: -10%;
 		height: 650px;
 	}
 
